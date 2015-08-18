@@ -1,0 +1,276 @@
+/*Páginas de Planos*/
+.pages {
+	padding-left: 2%;
+}
+.pages h1 {
+	padding-top: 2%;
+	border-bottom: 1px solid #D9DADE;
+	padding-bottom: 1%;
+	font-style: italic;
+}
+
+.pages .sessao_dados {
+	overflow: auto;
+}
+
+.pages .sessao_dados h2 {
+	padding-top: 1%;
+}
+
+.pages .sessao_dados .table {
+	border: 1px solid #D9DADE;
+}
+
+.pages .sessao_dados .table thead {
+	font-weight: bold;
+	background: #FBFBFB;
+}
+
+.pages .sessao_dados .table .espaco {
+	height: 75px;
+}
+
+.pages .sessao_dados .table .rodape {
+	background: #FBFBFB;
+}
+
+.pages .sessao_dados .table .rodape td {
+	padding-top: 0px;
+	padding-bottom: 3px;
+	height: 40px;
+}
+
+.pages .sessao_dados .table .rodape a {
+	margin-right: 2%;
+}
+
+.pages .sessao_dados .table .rodape i { 
+	margin-right: 7%; 
+}
+
+.pages .sessao_dados .table .rodape .pagseguro {
+	background-color: #42C052;
+	padding-bottom: 2%;
+	padding-top: 0.1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.pages .sessao_dados .table .rodape .pagseguro img {
+	height: 25px;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.botoes {
+	margin-bottom: 7%;
+	margin-top: 5%;
+}
+
+.botoes a {
+	margin-right: 2%;
+	margin-bottom: 3%;
+}
+
+.botoes a i {
+	margin-right: 13%;
+
+}
+
+/*Páginas do Perfil do Cliente*/
+.dados_perfil {
+	overflow: auto;
+	padding-top: 3%;
+}
+
+.dados_perfil .foto{
+	
+}
+
+.dados_perfil .foto img {
+	width: 100%;
+}
+
+.dados_perfil .botao_alterar{
+	
+}
+
+.dados_perfil .botao_alterar .btn {
+	width: 100%;
+}
+
+.dados_perfil .botao_alterar a i {
+	margin-right: 3%;
+}
+
+.dados_perfil .nome {
+	color: #F66D22;
+}
+.dados_perfil .info {
+	color: #F66D22;
+}
+.dados_perfil .info span{
+	color: #444444;
+}
+
+.perfis_contratados {
+	color: #F66D22;
+	
+}
+
+.perfis_contratados p span {
+	color: #444444;
+}
+
+.detalhes_planos {
+}
+
+.detalhes_planos p {
+}
+.detalhes_planos .btn {
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 100%;
+	background: #F39C1B;
+}
+
+.detalhes_planos p a i {
+	margin-right: 3%;
+	vertical-align: inherit;
+}
+
+.aviso {
+	background: #F7F8FA;
+	overflow: auto;
+	padding-top: 1%;
+	margin-top: 1%;
+}
+
+.aviso .descricao {
+	padding-top: 0.5%;
+}
+
+.aviso .descricao p {
+	color: #777777;
+
+}
+
+.aviso .botao .btn {
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 100%;
+}
+
+.sessao_dados h1 {
+	margin-bottom: 3%;
+}
+
+.favoritos_perfil {
+
+}
+
+.favoritos_perfil .image {
+	
+}
+
+.favoritos_perfil .image img {
+	width: 100%;
+}
+
+.favoritos_perfil .nome {
+	color: #F66D22;
+}
+
+.favoritos_perfil .nome a {
+	color: #F66D22;
+}
+
+.favoritos_perfil .resumo {
+	color: #777777;
+}
+
+.favoritos_perfil .lista {
+	padding-bottom: 3%;
+	overflow: auto;
+}
+
+.favoritos_perfil .botao {
+	text-align: right;
+}	
+
+.favoritos_perfil .botao .btn {
+	background: #F39C1B;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.favoritos_perfil .botao .btn i {
+	vertical-align: inherit;
+	font-size: 20px;
+	margin-right: 10%;
+}	
+
+
+
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 1200px) {
+
+	@media screen and (width: 1024px) {
+		.detalhes_planos .btn {font-size: 12px;}
+		.aviso .botao .btn {font-size: 12px;}
+		.rodape .info {font-size: 15px; padding-bottom: 1%;}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	
+
+	@media screen and (width: 800px) {}
+}
+
+@media screen and (max-width:767px){
+	.dados_perfil .nome {font-size: 14px;}
+	.dados_perfil .info {font-size: 12px;}
+	.dados_perfil .foto img {width: 73%;}
+	.dados_perfil .botao_alterar {width: 73%;}
+	.dados_perfil .botao_alterar .btn {font-size: 12px;}
+	.favoritos_perfil .image {width: 65%;}
+	.rodape .info {font-size: 12px; padding: 0;}
+	.rodape .info a {padding: 0;}
+	footer .rodape {font-size: 14px;}
+
+
+	@media screen and (width: 736px) {
+	}
+
+	@media screen and (width: 667px) {
+	}
+
+	@media screen and (width: 640px){
+	}
+
+	@media screen and (width: 568px){
+		
+	}
+
+	@media screen and (max-width: 480px) {
+		.dados_perfil .foto img {width: 100%;}
+		.dados_perfil .botao_alterar {width: 100%;}
+		.favoritos_perfil .image {width: 100%;}
+		.informacoes {padding-right: 0; padding-left: 0;}
+		.favoritos_perfil .resumo {font-size: 12px;}
+
+		@media screen and (width: 320px) {
+			.rodape .info {font-size: 10px;}
+			.dados_perfil .botao_alterar .btn {
+				font-size: 10px;
+			}
+		}
+		
+	}
+
+}
+	
+
